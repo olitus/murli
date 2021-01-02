@@ -4,42 +4,44 @@
 import click
 
 
-@click.group()
+PYTHON_VERSIONS_TUPLE = ('2', '3')
+PYTHON_VERSION_CHOICES = click.Choice(PYTHON_VERSIONS_TUPLE, 
+                                      case_sensitive=False)
+PYTHON_DEFAULT_VERSION = '3'
+
+CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
+
+
+@click.group(context_settings=CONTEXT_SETTINGS)
+@click.version_option()
 def murli():
+    """
+    Charming Python manager.
+    """
     pass
 
 
 @murli.command()
-@click.option('--python', 
-              type=PythonVersion)
-@click.argument('path')
-def new(path: PythonVersion):
-    click.echo("Create new Python project at {path}")
-
-
-@murli.command()
 def init():
-    click.echo("Initialize Python project in given directory")
+    """
+    Create a new Murli project manifest at current directory.
+    """
+    click.echo('Initialize Python project in given directory')
 
 
-
-
-class PythonVersion(click.ParamType):
-    name = "integer"
-
-    def convert(self, value, param, ctx):
-        try:
-            if value[:2].lower() == "0x":
-                return int(value[2:], 16)
-            elif value[:1] == "0":
-                return int(value, 8)
-            return int(value, 10)
-        except TypeError:
-            self.fail(
-                "expected string for int() conversion, got "
-                f"{value!r} of type {type(value).__name__}",
-                param,
-                ctx,
-            )
-        except ValueError:
-            self.fail(f"{value!r} is not a valid integer", param, ctx)
+@murli.command('new', short_help='init a project')
+@click.option('--python', 'python_version',
+    required=False, 
+    type=PYTHON_VERSION_CHOICES,
+    default=PYTHON_DEFAULT_VERSION, 
+    show_default=True,
+    help='Specify Python version to use.')
+@click.argument('path', 
+    nargs=1, 
+    required=True,
+    type=click.Path(exists=False))
+def new(python_version:int, path: click.Path):
+    """
+    Create a new Murli project at PATH.
+    """
+    click.echo(f'Create new Python {python_version} project at {path}')

@@ -9,4 +9,5 @@ ___________/|      }====TTT==\=(|  o/`  o/o/
 ## Inspiration and Name
 Murli is highly inspired by Cargo.
 
-Name is based on the alternative name for pungi, Indian instrument to charm snakes. Information is based on Wikipedia [page](https://en.wikipedia.org/wiki/Pungi), so might be wrong.
+Name is based on the alternative name for pungi, Indian instrument to charm snakes. 
+Information is based on Wikipedia [page](https://en.wikipedia.org/wiki/Pungi), so might be wrong.

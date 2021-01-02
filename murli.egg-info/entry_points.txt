@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        murli=murli.main:murli
+    

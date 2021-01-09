@@ -14,9 +14,9 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
 @click.group(context_settings=CONTEXT_SETTINGS)
 @click.version_option()
-def murli():
+def cli():
     """
-    Charming Python manager.
+    Main entrenca point for the cli.
     """
     pass
 
@@ -24,7 +24,7 @@ def murli():
 @murli.command()
 def init():
     """
-    Create a new Murli project manifest at current directory.
+    Create a new Pyto project at current directory.
     """
     click.echo('Initialize Python project in given directory')
 
@@ -42,6 +42,6 @@ def init():
     type=click.Path(exists=False))
 def new(python_version:int, path: click.Path):
     """
-    Create a new Murli project at PATH.
+    Create a new Pyto project at PATH.
     """
     click.echo(f'Create new Python {python_version} project at {path}')

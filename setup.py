@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='murli',
+    name='pyto',
     version='0.1.0',
-    py_modules=['murli'],
+    py_modules=['pyto'],
     install_requires=[
         'Click',
     ],
     entry_points='''
         [console_scripts]
-        murli=murli.main:murli
-    ''',
+        pyto=pyto.main:cli
+    '''
 )

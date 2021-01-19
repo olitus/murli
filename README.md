@@ -2,9 +2,9 @@
 
 ```
      /\
- )  ( ') ~ mur
-(  /  )
- \(__)|
+ )  ( ') ~ mur new fluffy-project
+(  /  ) 
+ \(__)|  
 ```
 
 ## Resources

@@ -21,6 +21,9 @@
 Our cat's name is Aiko.
 ```
 
+## Features
+- ...
+- **Compiling** with PyPy or ..?
 
 ## Usage
 

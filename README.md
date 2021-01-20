@@ -17,6 +17,8 @@
  /\ ( >_<)
  \| /   )-  error: no such module
   \(__)|
+  
+Our cat's name is Aiko.
 ```
 
 

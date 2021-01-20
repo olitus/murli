@@ -31,6 +31,10 @@ fluffy-project was created and Murli project was initiated.
 
 ## Info
 
+#### Project Structure
+Strcuture of your project is very personal thing, however, as we are not only charming, but also very opninated manager, we decided to enforce standart project structure. You are probably already familier with it, as a large number of Python project are using same or very similar structure. Our was highly influnced by the following:
+- https://docs.python-guide.org/writing/structure/
+
 #### Name origin
 > Murli is one of the names for an instrument used to charm snakes in India.
 

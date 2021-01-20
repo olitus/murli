@@ -22,8 +22,10 @@ Our cat's name is Aiko.
 ```
 
 ## Features
-- ...
+- **Setup**
+- **Environment** with pyenv or ..?
 - **Compiling** with PyPy or ..?
+- **Extandable**: you can add new commands and implement new backends for default commands
 
 ## Usage
 

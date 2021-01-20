@@ -1,4 +1,4 @@
-# murli - charming python manager
+# murli - charming Python manager
 
 ```
      /\

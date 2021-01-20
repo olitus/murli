@@ -1,20 +1,22 @@
 # murli - charming Python manager
 
 ```
-     /\
- )  ( ')  mur new fluffy-project
-(  /  ) 
- \(__)|
- 
-    /\/\
- ) ( '_')
-(  /   )-   note: you are doing great
- \(__)|
- 
+      /\
+  )  ( ')   ~ mur new fluffy-project
+ (  /  ) 
+  \(__)|
+
+
+     /\/\
+  ) ( '.')
+ (  /   )-  note: you are doing great
+  \(__)|
+
+
      /\/\
  /\ ( >_<)
  \| /   )-  error: no such module
-  \(__)| 
+  \(__)|
 ```
 
 

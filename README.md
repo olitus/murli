@@ -2,9 +2,19 @@
 
 ```
      /\
- )  ( ') ~ mur new fluffy-project
+ )  ( ')  mur new fluffy-project
 (  /  ) 
- \(__)|  
+ \(__)|
+ 
+    /\/\
+ ) ( '_')
+(  /   )-   note: you are doing great
+ \(__)|
+ 
+     /\/\
+ /\ ( >_<)
+ \| /   )-  error: no such module
+  \(__)| 
 ```
 
 

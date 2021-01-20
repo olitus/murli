@@ -8,14 +8,22 @@
 ```
 
 
+## Usage
+
+#### `mur new`
+```
+> mur new fluffy-project
+fluffy-project was created and Murli project was initiated. 
+```
+
+
+## Info
 
 #### Name origin
 > Murli is one of the names for an instrument used to charm snakes in India.
 
-
 #### Inluenced by
 - Rust [Cargo](https://doc.rust-lang.org/cargo/index.html)
-
 
 
 ## Resources

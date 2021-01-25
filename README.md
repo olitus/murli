@@ -49,6 +49,9 @@ Strcuture of your project is very personal thing, however, as we are not only ch
 #### Inluenced by
 - Rust [Cargo](https://doc.rust-lang.org/cargo/index.html)
 
+## Dev
+- https://click.palletsprojects.com/en/7.x/utils/
+- https://setuptools.readthedocs.io/en/latest/userguide/entry_point.html
 
 ## Resources
 - https://github.com/vinta/awesome-python#readme

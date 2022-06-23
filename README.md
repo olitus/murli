@@ -17,6 +17,13 @@
 - Rust [fp-core](https://github.com/JasonShin/fp-core.rs#lambda-calculus)
 
 
+## Ideas
+```
+# like ZIO
+Program[In, Error, Out]
+
+```
+
 
 ## Aiko
 ```

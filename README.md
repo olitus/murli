@@ -1,4 +1,4 @@
-# mur - functional programming in python
+# mur - charming functional programming
 
 ```
      /\/\
